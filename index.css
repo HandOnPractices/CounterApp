@@ -22,8 +22,13 @@ body {
 }
 
 /* Headings */
-h1 {
-    font-size: 5vw; /* Adjusts with screen size */
+p{
+    font-size: 2vw; /* Adjusts with screen size */
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+ h1 {
+    font-size: 4vw; /* Adjusts with screen size */
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
@@ -64,7 +69,7 @@ button {
         padding: 4vw;
     }
 
-    h2 {
+    p,h2 {
         font-size: 8vw;
     }
 
